@@ -12,10 +12,10 @@ document.querySelector('html').onclick=function(){
 let myImage=document.querySelector('img');
 myImage.onclick=function(){
   let mySrc=myImage.getAttribute('src');
-  if(mySrc==='https://github.com/shennaichuan00/shennaichuan00.github.io/blob/main/images/denglong.jpg'){
-     myImage.setAttribute('src','https://github.com/shennaichuan00/shennaichuan00.github.io/blob/main/images/yinghua.jpg');
+  if(mySrc==='https://raw.githubusercontent.com/shennaichuan00/shennaichuan00.github.io/main/images/denglong.jpg'){
+     myImage.setAttribute('src','https://raw.githubusercontent.com/shennaichuan00/shennaichuan00.github.io/main/images/yinghua.jpg');
   }else{
-    myImage.setAttribute('src','https://github.com/shennaichuan00/shennaichuan00.github.io/blob/main/images/denglong.jpg');
+    myImage.setAttribute('src','https://raw.githubusercontent.com/shennaichuan00/shennaichuan00.github.io/main/images/denglong.jpg');
   }
 }
 let myButton=document.querySelector('button');
