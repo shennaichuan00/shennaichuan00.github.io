@@ -12,10 +12,10 @@ document.querySelector('html').onclick=function(){
 let myImage=document.querySelector('img');
 myImage.onclick=function(){
   let mySrc=myImage.getAttribute('src');
-  if(mySrc==='D:/2018-2020工作/考期计划/产品经理学编程/images/denglong.jpg'){
-     myImage.setAttribute('src','D:/2018-2020工作/考期计划/产品经理学编程/images/yinghua.jpg');
+  if(mySrc==='https://github.com/shennaichuan00/shennaichuan00.github.io/images/denglong.jpg'){
+     myImage.setAttribute('src','https://github.com/shennaichuan00/shennaichuan00.github.io/images/yinghua.jpg');
   }else{
-    myImage.setAttribute('src','D:/2018-2020工作/考期计划/产品经理学编程/images/denglong.jpg');
+    myImage.setAttribute('src','https://github.com/shennaichuan00/shennaichuan00.github.io/images/denglong.jpg');
   }
 }
 let myButton=document.querySelector('button');
