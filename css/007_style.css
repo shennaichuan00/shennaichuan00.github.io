@@ -1,0 +1,23 @@
+table{
+    border: 3px solid black;
+    width: 780px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+td,th{
+    border: 1px solid black;
+}
+th{
+    letter-spacing: 1px;
+}
+thead,tbody{
+    text-align: center;
+}
+/*  偶数行  */
+tbody tr:nth-child(even){
+ background-color: rgb(26, 214, 67);
+}
+/*  奇数行  */
+tbody tr:nth-child(odd){
+    background-color: gold;
+   }
